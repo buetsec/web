@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://2024-preli.buetctf.xyz/scoreboard -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>BUET CTF 2024</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://2024-preli.buetctf.xyz/themes/neon/static/img/favicon.ico?d=e7bea206" type="image/x-icon">
+    <link rel="stylesheet" href="./index/fonts.min.css">
+    <link rel="stylesheet" href="./index/core.min.css">
+    <link rel="stylesheet" href="./index/style.dev.css">
+    <link rel="stylesheet" href="./index/bootstrap4-neon-glow.min.css">
+
+    <link rel="stylesheet" href="./index/hack.min.css">
+    
+
+    
+    <script type="text/javascript">
+      var init = {
+        'urlRoot': "",
+        'csrfNonce': "8186788fb1a02ff4de5cfbf3fb037ee06646aae31da0c5a919174cf857b08537",
+        'userMode': "teams",
+        'userId': 1,
+        'start': 1729220400,
+        'end': 1729265400,
+        'theme_settings': null
+      }
+    </script>
+    <style id="theme-color">
+:root {--theme-color: #000000;}
+.navbar{background-color: var(--theme-color) !important;}
+.jumbotron{background-color: var(--theme-color) !important;}
+</style>
+
+  </head>
+
+  <body>
+    <div class="ht-tm-navbar navbar-dark text-white">
+  <div class="container">
+    <div class="ht-tm-navbar-left">
+      <a href="https://2024-preli.buetctf.xyz/" class="text-decoration-none text-light">
+        <span class="ht-tm-navbar-title">BUET CTF 2024</span>
+      </a>
+      <nav class="ht-tm-nav">
+        <a href="https://2024-preli.buetctf.xyz/" class="pl-md-0 p-3 text-light">Home</a>
+        
+
+        
+          <a class="text-decoration-none text-light" href="https://2024-preli.buetctf.xyz/users">Users</a>
+          
+            <a class="text-decoration-none text-light" href="https://2024-preli.buetctf.xyz/teams">Teams</a>
+          
+        
+
+        
+          <a class="text-decoration-none text-light" href="https://2024-preli.buetctf.xyz/scoreboard">Scoreboard</a>
+        
+        <a class="text-decoration-none text-light" href="https://2024-preli.buetctf.xyz/challenges">Challenges</a>
+        <a class="text-decoration-none text-light" href="https://2024-preli.buetctf.xyz/notifications">Notifications</a>
+      </nav>
+    </div>
+    <div class="ht-tm-element btn-group ml-auto">
+      
+        
+          <a class="btn btn-sm btn-outline-light ml-auto" href="https://2024-preli.buetctf.xyz/admin">
+            <span class="d-block" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Admin Panel">
+              <i class="fas fa-wrench d-none d-md-block d-lg-none"></i>
+            </span>
+            <span class="d-sm-block d-md-none d-lg-block">
+              <i class="fas fa-wrench pr-1"></i>Admin Panel
+            </span>
+          </a>
+        
+        
+          <a class="btn btn-sm btn-outline-light" href="https://2024-preli.buetctf.xyz/team">
+            <span class="d-block" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Team">
+              <i class="fas fa-users d-none d-md-block d-lg-none"></i>
+            </span>
+            <span class="d-sm-block d-md-none d-lg-block">
+              <i class="fas fa-users pr-1"></i>Team
+            </span>
+          </a>
+        
+        <a class="btn btn-sm btn-outline-light" href="https://2024-preli.buetctf.xyz/user">
+          <span class="d-block" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Profile">
+            <i class="fas fa-user-circle d-none d-md-block d-lg-none"></i>
+          </span>
+          <span class="d-sm-block d-md-none d-lg-block">
+            <i class="fas fa-user-circle pr-1"></i>Profile
+          </span>
+        </a>
+        <a class="btn btn-sm btn-outline-light" href="https://2024-preli.buetctf.xyz/settings">
+          <span class="d-block" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Settings">
+            <i class="fas fa-cogs d-none d-md-block d-lg-none"></i>
+          </span>
+          <span class="d-sm-block d-md-none d-lg-block">
+            <i class="fas fa-cogs pr-1"></i>Settings
+          </span>
+        </a>
+        <a class="btn btn-sm btn-outline-light" href="https://2024-preli.buetctf.xyz/logout">
+          <span class="d-block" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Logout">
+            <i class="fas fa-sign-out-alt d-none d-md-block d-lg-none"></i>
+          </span>
+          <span class="d-sm-block d-md-none d-lg-block">
+            <i class="fas fa-sign-out-alt pr-1"></i>
+            <span class="d-lg-none">Logout</span>
+          </span>
+        </a>
+      
+    </div>
+  </div>
+</div>
+
+    <main role="main">
+      
+  <div class="container py-5 mb-5">
+    <h1 class="text-center">Scoreboard<span class="vim-caret">͏͏&nbsp;&nbsp;</span>
+    </h1>
+  </div>
+  <div class="container">
+    <div>
+
+
+</div>
+    
+    
+      <div id="scoreboard" class="row">
+        <div class="col-md-12">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <td scope="col" width="10px">
+                  <b>Place</b>
+                </td>
+                <td scope="col">
+                  <b>Team</b>
+                </td>
+                <td scope="col">
+                  <b>Score</b>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <th scope="row" class="text-center">1</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/44">
+                      n006_54uaD
+                    </a>
+                  </td>
+                  <td>3363</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">2</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/22">
+                      du_styballs
+                    </a>
+                  </td>
+                  <td>2883</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">3</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/27">
+                      DU_CK
+                    </a>
+                  </td>
+                  <td>2853</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">4</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/150">
+                      NoOne
+                    </a>
+                  </td>
+                  <td>2208</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">5</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/12">
+                      8y3_8y3_8y3
+                    </a>
+                  </td>
+                  <td>1983</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">6</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/37">
+                      E5h0_p0t@k@_dh0rii
+                    </a>
+                  </td>
+                  <td>1953</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">7</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/142">
+                      UU_Encryption
+                    </a>
+                  </td>
+                  <td>1878</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">8</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/15">
+                      DU_Featherless_Bipeds
+                    </a>
+                  </td>
+                  <td>1867</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">9</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/144">
+                      Cyber Security Enthusiast
+                    </a>
+                  </td>
+                  <td>1858</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">10</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/115">
+                      BRACU Cipherpunks
+                    </a>
+                  </td>
+                  <td>1823</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">11</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/9">
+                      Team_Moshari
+                    </a>
+                  </td>
+                  <td>1773</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">12</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/45">
+                      0/P
+                    </a>
+                  </td>
+                  <td>1733</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">13</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/168">
+                      Triode
+                    </a>
+                  </td>
+                  <td>1663</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">14</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/155">
+                      BR4CU D3SCR4Mbl3R
+                    </a>
+                  </td>
+                  <td>1648</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">15</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/118">
+                      h4ck3r_p0w3r
+                    </a>
+                  </td>
+                  <td>1633</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">16</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/139">
+                      Hidden Investigations
+                    </a>
+                  </td>
+                  <td>1633</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">17</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/67">
+                      Shadowstorm Syndicate
+                    </a>
+                  </td>
+                  <td>1627</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">18</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/171">
+                      Flag M4r4ud3r5
+                    </a>
+                  </td>
+                  <td>1612</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">19</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/69">
+                      B00G3YM3N
+                    </a>
+                  </td>
+                  <td>1552</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">20</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/194">
+                      IU_ZeroSkill
+                    </a>
+                  </td>
+                  <td>1548</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">21</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/64">
+                      RUET_CyberSontrashi
+                    </a>
+                  </td>
+                  <td>1533</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">22</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/123">
+                      IUT_Avalanche
+                    </a>
+                  </td>
+                  <td>1482</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">23</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/35">
+                      DIU_RiddleCrew
+                    </a>
+                  </td>
+                  <td>1458</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">24</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/42">
+                      DU_Black_Noodles
+                    </a>
+                  </td>
+                  <td>1452</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">25</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/178">
+                      The Black Onion
+                    </a>
+                  </td>
+                  <td>1438</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">26</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/75">
+                      Team Quartz
+                    </a>
+                  </td>
+                  <td>1408</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">27</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/77">
+                      Hacker_Vab_Skill_r_Ovab
+                    </a>
+                  </td>
+                  <td>1408</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">28</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/54">
+                      RUET_404_f14g_N0t_f0und
+                    </a>
+                  </td>
+                  <td>1408</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">29</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/76">
+                      RUET_OSM_z3r0day
+                    </a>
+                  </td>
+                  <td>1408</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">30</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/90">
+                      TEUReverse
+                    </a>
+                  </td>
+                  <td>1407</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">31</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/121">
+                      77RANGERS
+                    </a>
+                  </td>
+                  <td>1385</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">32</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/82">
+                      Cyber Samurai
+                    </a>
+                  </td>
+                  <td>1383</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">33</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/131">
+                      MupiXploiters
+                    </a>
+                  </td>
+                  <td>1377</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">34</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/14">
+                      Potaka
+                    </a>
+                  </td>
+                  <td>1337</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">35</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/110">
+                      JKKNIU_FreeThinkers
+                    </a>
+                  </td>
+                  <td>1327</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">36</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/7">
+                      Skill_Issue
+                    </a>
+                  </td>
+                  <td>1293</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">37</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/73">
+                      AIUB_86BitAstral
+                    </a>
+                  </td>
+                  <td>1285</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">38</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/56">
+                      C.L.A.Y.
+                    </a>
+                  </td>
+                  <td>1277</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">39</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/183">
+                      DIIT Traversal
+                    </a>
+                  </td>
+                  <td>1277</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">40</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/86">
+                      JKKNIU Cr4ck3rs
+                    </a>
+                  </td>
+                  <td>1277</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">41</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/141">
+                      RUET_NoIdea!!!
+                    </a>
+                  </td>
+                  <td>1252</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">42</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/78">
+                      Noob_Team
+                    </a>
+                  </td>
+                  <td>1243</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">43</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/100">
+                      Unique_Naam
+                    </a>
+                  </td>
+                  <td>1232</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">44</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/71">
+                      B1nary_Bandits
+                    </a>
+                  </td>
+                  <td>1208</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">45</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/95">
+                      RUET_D4RKN3T_ASS4SS1N5
+                    </a>
+                  </td>
+                  <td>1191</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">46</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/126">
+                      Stayin Alive
+                    </a>
+                  </td>
+                  <td>1185</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">47</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/166">
+                      Critical Flaws
+                    </a>
+                  </td>
+                  <td>1168</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">48</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/157">
+                      JUST_EXPLOIT_ENFORCERS
+                    </a>
+                  </td>
+                  <td>1163</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">49</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/51">
+                      NITER_Neophytes
+                    </a>
+                  </td>
+                  <td>1143</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">50</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/66">
+                      Rocket
+                    </a>
+                  </td>
+                  <td>1142</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">51</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/107">
+                      Flag_the_capture
+                    </a>
+                  </td>
+                  <td>1142</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">52</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/57">
+                      TEAM_DAUNTLESS
+                    </a>
+                  </td>
+                  <td>1126</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">53</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/13">
+                      R0GER_TH4T
+                    </a>
+                  </td>
+                  <td>1116</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">54</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/2">
+                      3rr0r_Genocide
+                    </a>
+                  </td>
+                  <td>1098</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">55</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/74">
+                      DU_Cipher_Pirates
+                    </a>
+                  </td>
+                  <td>1082</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">56</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/96">
+                      Team Ghumeshe_poreche
+                    </a>
+                  </td>
+                  <td>1082</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">57</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/162">
+                      PSTU_NonVolatile
+                    </a>
+                  </td>
+                  <td>1071</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">58</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/176">
+                      Capture the Autocrats
+                    </a>
+                  </td>
+                  <td>1036</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">59</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/8">
+                      Team_fu11_of_3diots
+                    </a>
+                  </td>
+                  <td>1017</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">60</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/31">
+                      Pink Hat Hackerz
+                    </a>
+                  </td>
+                  <td>1012</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">61</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/23">
+                      RUET_Unbound
+                    </a>
+                  </td>
+                  <td>1010</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">62</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/1">
+                      Equation
+                    </a>
+                  </td>
+                  <td>991</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">63</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/43">
+                      Ju_kintsugi
+                    </a>
+                  </td>
+                  <td>985</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">64</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/117">
+                      CUET BitGuardians
+                    </a>
+                  </td>
+                  <td>980</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">65</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/6">
+                      dds
+                    </a>
+                  </td>
+                  <td>957</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">66</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/164">
+                      BUET_peer_pressure
+                    </a>
+                  </td>
+                  <td>957</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">67</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/65">
+                      BUET_Oppenheimer
+                    </a>
+                  </td>
+                  <td>927</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">68</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/175">
+                      Noob_Pirates
+                    </a>
+                  </td>
+                  <td>925</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">69</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/186">
+                      nsu::impwnity
+                    </a>
+                  </td>
+                  <td>915</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">70</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/11">
+                      Looking_for_Shotruz
+                    </a>
+                  </td>
+                  <td>905</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">71</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/148">
+                      BracU Watermelon
+                    </a>
+                  </td>
+                  <td>902</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">72</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/128">
+                      ZeroDay Crypt
+                    </a>
+                  </td>
+                  <td>897</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">73</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/179">
+                      Cyber Warriors
+                    </a>
+                  </td>
+                  <td>870</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">74</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/79">
+                      404n07f0und
+                    </a>
+                  </td>
+                  <td>862</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">75</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/36">
+                      FUNSies
+                    </a>
+                  </td>
+                  <td>860</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">76</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/72">
+                      RPSU_Ants
+                    </a>
+                  </td>
+                  <td>847</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">77</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/17">
+                      DU_Namikaze
+                    </a>
+                  </td>
+                  <td>842</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">78</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/184">
+                      HawkEye
+                    </a>
+                  </td>
+                  <td>831</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">79</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/4">
+                      Integrated Hawkers
+                    </a>
+                  </td>
+                  <td>822</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">80</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/149">
+                      AIUB RootForce
+                    </a>
+                  </td>
+                  <td>811</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">81</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/169">
+                      Team_begun_tulte_jabona
+                    </a>
+                  </td>
+                  <td>807</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">82</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/3">
+                      JU_Espionage
+                    </a>
+                  </td>
+                  <td>802</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">83</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/24">
+                      Red Cipher
+                    </a>
+                  </td>
+                  <td>800</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">84</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/161">
+                      CTF Syndicate
+                    </a>
+                  </td>
+                  <td>770</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">85</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/16">
+                      runtime_terror
+                    </a>
+                  </td>
+                  <td>765</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">86</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/111">
+                      23_Tarik_Final
+                    </a>
+                  </td>
+                  <td>745</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">87</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/61">
+                      3xploitSqu4d
+                    </a>
+                  </td>
+                  <td>735</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">88</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/154">
+                      Missing_Semicolon
+                    </a>
+                  </td>
+                  <td>730</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">89</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/113">
+                      Khujtei_Achi_Vai
+                    </a>
+                  </td>
+                  <td>722</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">90</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/85">
+                      TEAM_C0RP0S3R
+                    </a>
+                  </td>
+                  <td>722</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">91</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/58">
+                      sudo_strings
+                    </a>
+                  </td>
+                  <td>722</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">92</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/99">
+                      DU_BlameGame
+                    </a>
+                  </td>
+                  <td>720</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">93</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/135">
+                      NITER_Cyber_Rivet
+                    </a>
+                  </td>
+                  <td>700</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">94</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/25">
+                      404 Brain Not Found
+                    </a>
+                  </td>
+                  <td>690</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">95</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/70">
+                      IUT Team Not Found
+                    </a>
+                  </td>
+                  <td>685</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">96</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/120">
+                      CryWolf
+                    </a>
+                  </td>
+                  <td>681</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">97</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/98">
+                      DU_Dragonflies
+                    </a>
+                  </td>
+                  <td>672</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">98</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/34">
+                      JU_BrainInjection
+                    </a>
+                  </td>
+                  <td>625</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">99</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/137">
+                      l0r3m_1p5um
+                    </a>
+                  </td>
+                  <td>600</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">100</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/172">
+                      DU_AVOCADO
+                    </a>
+                  </td>
+                  <td>600</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">101</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/192">
+                      JKKNIU L@L P1p4a
+                    </a>
+                  </td>
+                  <td>600</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">102</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/5">
+                      NSTU_CTF_101
+                    </a>
+                  </td>
+                  <td>600</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">103</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/147">
+                      Team FLA
+                    </a>
+                  </td>
+                  <td>595</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">104</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/101">
+                      BUET_TEAM_ONE
+                    </a>
+                  </td>
+                  <td>587</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">105</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/88">
+                      RUET_Zodiac
+                    </a>
+                  </td>
+                  <td>586</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">106</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/92">
+                      RUET_Beg1nner_bytes
+                    </a>
+                  </td>
+                  <td>580</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">107</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/21">
+                      Flag Snatchers
+                    </a>
+                  </td>
+                  <td>565</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">108</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/50">
+                      Jnu_Broken_Souls
+                    </a>
+                  </td>
+                  <td>550</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">109</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/91">
+                      Noob_Master
+                    </a>
+                  </td>
+                  <td>542</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">110</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/196">
+                      Overflows_Anonymous
+                    </a>
+                  </td>
+                  <td>530</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">111</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/39">
+                      Living_Failures
+                    </a>
+                  </td>
+                  <td>520</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">112</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/127">
+                      Byte Bros
+                    </a>
+                  </td>
+                  <td>516</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">113</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/167">
+                      Pred@tors
+                    </a>
+                  </td>
+                  <td>510</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">114</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/159">
+                      TeamSerenitySyndicate
+                    </a>
+                  </td>
+                  <td>506</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">115</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/89">
+                      L_Team
+                    </a>
+                  </td>
+                  <td>505</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">116</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/49">
+                      R3SISTANC3_2.0
+                    </a>
+                  </td>
+                  <td>495</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">117</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/18">
+                      BL4CK_P5YCH0P47H
+                    </a>
+                  </td>
+                  <td>485</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">118</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/106">
+                      Team Mango
+                    </a>
+                  </td>
+                  <td>485</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">119</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/19">
+                      Team_PNGs
+                    </a>
+                  </td>
+                  <td>475</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">120</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/28">
+                      Nameless
+                    </a>
+                  </td>
+                  <td>450</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">121</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/55">
+                      DU_Bitwise_Bandits
+                    </a>
+                  </td>
+                  <td>440</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">122</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/145">
+                      Stolen Sand
+                    </a>
+                  </td>
+                  <td>435</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">123</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/38">
+                      JU_FireFly
+                    </a>
+                  </td>
+                  <td>430</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">124</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/181">
+                      JKKNIU_FlagQuesters
+                    </a>
+                  </td>
+                  <td>430</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">125</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/41">
+                      PSTU_CYBER_SPACE
+                    </a>
+                  </td>
+                  <td>420</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">126</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/83">
+                      MYST3RI0US_H4CK3RS
+                    </a>
+                  </td>
+                  <td>412</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">127</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/68">
+                      White Rabbits
+                    </a>
+                  </td>
+                  <td>410</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">128</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/104">
+                      Debuggin Crew
+                    </a>
+                  </td>
+                  <td>400</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">129</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/63">
+                      Team-0xD
+                    </a>
+                  </td>
+                  <td>395</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">130</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/173">
+                      Silent Wind
+                    </a>
+                  </td>
+                  <td>380</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">131</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/182">
+                      H4K3RM4NS
+                    </a>
+                  </td>
+                  <td>380</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">132</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/97">
+                      PRAWN
+                    </a>
+                  </td>
+                  <td>370</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">133</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/140">
+                      m4tR1x
+                    </a>
+                  </td>
+                  <td>370</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">134</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/191">
+                      Red Flags
+                    </a>
+                  </td>
+                  <td>355</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">135</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/47">
+                      DU_Zeros_and_Ones
+                    </a>
+                  </td>
+                  <td>320</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">136</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/26">
+                      Lolipop
+                    </a>
+                  </td>
+                  <td>300</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">137</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/136">
+                      CyberForce
+                    </a>
+                  </td>
+                  <td>300</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">138</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/146">
+                      JUST_0auth
+                    </a>
+                  </td>
+                  <td>280</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">139</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/94">
+                      Cyber Knights
+                    </a>
+                  </td>
+                  <td>280</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">140</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/187">
+                      TRIPLE _THR34T
+                    </a>
+                  </td>
+                  <td>280</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">141</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/165">
+                      RU_R4NG3Rs
+                    </a>
+                  </td>
+                  <td>276</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">142</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/102">
+                      Black Swan
+                    </a>
+                  </td>
+                  <td>260</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">143</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/122">
+                      Team Mecha
+                    </a>
+                  </td>
+                  <td>260</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">144</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/29">
+                      robots.txt
+                    </a>
+                  </td>
+                  <td>260</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">145</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/152">
+                      Kuet Hacktivists
+                    </a>
+                  </td>
+                  <td>245</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">146</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/59">
+                      Du0_S
+                    </a>
+                  </td>
+                  <td>220</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">147</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/60">
+                      hackers_night
+                    </a>
+                  </td>
+                  <td>210</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">148</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/188">
+                      Xenos 404
+                    </a>
+                  </td>
+                  <td>210</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">149</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/93">
+                      Boom
+                    </a>
+                  </td>
+                  <td>210</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">150</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/40">
+                      Phant0ms
+                    </a>
+                  </td>
+                  <td>200</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">151</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/160">
+                      Bytewave
+                    </a>
+                  </td>
+                  <td>190</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">152</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/138">
+                      BUET Parody
+                    </a>
+                  </td>
+                  <td>180</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">153</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/133">
+                      Black Knights
+                    </a>
+                  </td>
+                  <td>170</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">154</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/20">
+                      weStillKnowNothing
+                    </a>
+                  </td>
+                  <td>160</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">155</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/30">
+                      Ethic Backbencher
+                    </a>
+                  </td>
+                  <td>150</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">156</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/134">
+                      DU Cypher
+                    </a>
+                  </td>
+                  <td>140</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">157</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/156">
+                      HUNTER FORCES
+                    </a>
+                  </td>
+                  <td>140</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">158</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/33">
+                      Team_Arsenic
+                    </a>
+                  </td>
+                  <td>120</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">159</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/180">
+                      Access_denied
+                    </a>
+                  </td>
+                  <td>100</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">160</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/163">
+                      Lock &amp; Code
+                    </a>
+                  </td>
+                  <td>100</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">161</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/105">
+                      DIU_CypherX
+                    </a>
+                  </td>
+                  <td>75</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">162</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/143">
+                      Death Note
+                    </a>
+                  </td>
+                  <td>50</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">163</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/53">
+                      Head Crushers
+                    </a>
+                  </td>
+                  <td>50</td>
+                </tr>
+              
+                <tr>
+                  <th scope="row" class="text-center">164</th>
+                  <td>
+                    <a href="https://2024-preli.buetctf.xyz/teams/46">
+                      sbpgc_coder_knights
+                    </a>
+                  </td>
+                  <td>50</td>
+                </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+    
+    
+  </div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container text-center">
+        <a href="https://ctfd.io/" class="text-secondary">
+          <small class="text-muted">Powered by CTFd</small>
+        </a>
+      </div>
+    </footer>
+
+    <script defer="defer" src="./index/vendor.bundle.min.js"></script>
+    <script defer="defer" src="./index/core.min.js"></script>
+    <script defer="defer" src="./index/helpers.min.js"></script>
+
+    
+  <script defer="defer" src="./index/scoreboard.min.js"></script>
+
+
+    
+  <script defer="defer" src="./index/echarts.bundle.min.js"></script>
+
+
+    
+
+    
+  
+
+</body></html>
